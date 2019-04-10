@@ -12,6 +12,10 @@ HADOOP_HOME=C:\somewhere\hadoop-2.7.3
 
 %HADOOP_HOME%\bin
 
-Go to the c:\somewhere\spark-2.1.0-bin-hadoop2.7\bin\
+Set hadoop environment
+If you're using windows, you could download winutils from https://github.com/steveloughran/winutils
 
-execute spark-shell --master local[4]
+Go to c:\somewhere\spark-2.1.0-bin-hadoop2.7\bin\
+Paste winutils.exe
+
+The scenario from this repo is get data from kafka topic using Spark Streaming
